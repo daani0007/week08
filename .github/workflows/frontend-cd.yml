@@ -79,8 +79,8 @@ jobs:
       - name: Set Kubernetes context (get AKS credentials)
         uses: azure/aks-set-context@v3
         with:
-          resource-group: ${{ inputs.aks_resource_group }}
-          cluster-name: ${{ inputs.aks_cluster_name }}
+          resource-group: sit722-wk08-rg-47897
+          cluster-name: wk08aks47897
 
       - name: Deploy Frontend to AKS
         run: |
